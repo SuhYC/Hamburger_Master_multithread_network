@@ -40,3 +40,16 @@ stl
 햄버거의 종류와 점수를 문자열로 변환하여 클라이언트에 전송한다.
 
 클라이언트는 수령한 버거를 종류마다 갯수를 기록하고 점수를 평균내어 보여준다.
+
+## 결과
+<img src="https://github.com/SuhYC/Hamburger_Master_multithread_network/blob/main/server.png" width="500"> <img src="https://github.com/SuhYC/Hamburger_Master_multithread_network/blob/main/clnt.png" width="500"><br/>
+
+왼쪽이 서버, 오른쪽이 클라이언트.
+
+서버측에서 받은 주문과 완성되어 배달한 주문의 순서가 다르다. 멀티스레드를 사용하였기 때문.
+
+클라이언트에선 최종적으로 3/3/3/3개의 완성품을 정상적으로 수령했다.
+
+<img src="https://github.com/SuhYC/Hamburger_Master_multithread_network/blob/main/clnt1.png" width="500"><br/>
+
+갯수를 늘려 30/30/30/30도 당연히 가능
